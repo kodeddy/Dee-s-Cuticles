@@ -1,0 +1,13 @@
+/* #heading {
+    background-image: url(./images/DCs-background.jpeg);
+}    */
+#heading img {
+    width: 30%;
+    
+}
+#heading i {
+    /* color: red ; */
+    background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
