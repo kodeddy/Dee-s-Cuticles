@@ -1,17 +1,31 @@
 #heading {
-    /* background-image: url(./images/DCs-background.jpeg); */
     background-color: #f2e2d6;
 }   
 #heading img {
     width: 30%;
     margin-left: 71%;
 }
-#heading i {
+#heading p {
     background: -webkit-linear-gradient(rgb(236, 106, 106), rgb(75, 175, 125));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Condiment', cursive;
+    
 }
 .headtextdiv {
     width: 50%;   
+}
+.headtxtdiv {
+    margin-top: 50px;
+    height: 90px;
+}
+.wordalt {
+    /* color: steelblue; */
+    position: relative;
+    top: -28px;
+    padding: 15px;
+    background: -webkit-linear-gradient(rgb(236, 106, 106), rgb(75, 175, 125));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Condiment', cursive;
 }
