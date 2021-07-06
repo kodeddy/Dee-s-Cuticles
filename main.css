@@ -1,13 +1,17 @@
-/* #heading {
-    background-image: url(./images/DCs-background.jpeg);
-}    */
+#heading {
+    /* background-image: url(./images/DCs-background.jpeg); */
+    background-color: #f2e2d6;
+}   
 #heading img {
     width: 30%;
-    
+    margin-left: 71%;
 }
 #heading i {
-    /* color: red ; */
-    background: -webkit-linear-gradient(#eee, #333);
+    background: -webkit-linear-gradient(rgb(236, 106, 106), rgb(75, 175, 125));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: 'Condiment', cursive;
+}
+.headtextdiv {
+    width: 50%;   
 }
