@@ -29,3 +29,15 @@
   -webkit-text-fill-color: transparent;
   font-family: 'Condiment', cursive;
 }
+.navbg {
+    background-color: rgb(238 198 172 / 61%);
+}
+.navbar li {
+    padding: 23px;
+    margin: 5px;
+}
+.navbar li:hover {
+    box-shadow: #dc3243 0px -1px 4px 4px;
+    /* background-color: blue; */
+    border-radius: 90%;
+}
