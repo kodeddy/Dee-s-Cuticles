@@ -1,3 +1,12 @@
+body {
+    background-color: rgb(238 198 172 / 61%);
+    animation: body 5s infinite;
+}
+  
+  @keyframes body {
+    from {background-color: rgb(238 198 172 / 85%);}
+    to {background-color: #f2e2d6;}
+  }
 #heading {
     background-color: #f2e2d6;
 }   
@@ -10,7 +19,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Condiment', cursive;
-    
 }
 .headtextdiv {
     width: 50%;   
@@ -25,7 +33,7 @@
     top: -28px;
     padding: 15px;
     background: -webkit-linear-gradient(rgb(236, 106, 106), rgb(75, 175, 125));
-  -webkit-background-clip: text;
+   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Condiment', cursive;
 }
@@ -38,6 +46,21 @@
 }
 .navbar li:hover {
     box-shadow: #dc3243 0px -1px 4px 4px;
-    /* background-color: blue; */
     border-radius: 90%;
+}
+.balzydp {
+    border-bottom-right-radius: 250%;
+    /* border-botto-left-radius: 250%; */
+    border-top-left-radius: 250%;
+    border-top-right-radius: 250%;
+}
+.sec-col {
+    /* border-top-right-radius: 150%;
+    border-bottom-right-radius: 150%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%; */
+    /* border: solid green; */
+}
+.sec-col div {
+    /* background-color: red; */
 }
